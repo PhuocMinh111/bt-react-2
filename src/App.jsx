@@ -1,11 +1,12 @@
 import "./styles.css";
 import "./components/Hero";
+import Hero from "./components/Hero";
+import Glasses from "./components/Glasses";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
       <Hero />
+      <Glasses />
     </div>
   );
 }

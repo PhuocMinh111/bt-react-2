@@ -4,7 +4,7 @@ export default class Hero extends React.Component {
   render() {
     return (
       <Container>
-        <img src="./data/" alt="" />
+        <img src="/data/image/background.jpg" alt="" />
       </Container>
     );
   }
