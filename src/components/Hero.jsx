@@ -3,9 +3,9 @@ import { Container } from "react-bootstrap";
 export default class Hero extends React.Component {
   render() {
     return (
-      <Container>
-        <img src="/data/image/background.jpg" alt="" />
-      </Container>
+      <div id="hero">
+        <img src="glassesImage/background.jpg" alt="" />
+      </div>
     );
   }
 }
